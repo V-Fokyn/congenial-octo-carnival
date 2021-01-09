@@ -1,0 +1,41 @@
+.stopwatch {
+  width: 500px;
+  margin: 5rem auto;
+}
+
+.stopwatch__time {
+  font-size: 2.5rem;
+  text-align: center;
+  white-space: normal;
+}
+
+.stopwatch__buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch__buttons__button {
+  padding: .5rem;
+  margin: 1rem;
+  min-width: 100px;
+  color: white;
+  border: 0;
+  border-radius: .25rem;
+}
+
+.stopwatch__buttons__start {
+  background: #267f16;
+}
+
+.stopwatch__buttons__stop {
+  background: #7f1616;
+}
+
+.stopwatch__buttons__wait {
+  background: #ab970a;
+}
+
+.stopwatch__buttons__reset {
+  background: #026a9c;
+}
